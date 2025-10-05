@@ -65,6 +65,11 @@ public class CartPage extends AndroidActions {
 		
 	}
 	
+	public double getTotalAmountDisplayed12()
+	{
+		return getFormattedAmount(displayedTotalAmount.getText());
+		
+	}
 	
 	
 	public void submitOrder()
