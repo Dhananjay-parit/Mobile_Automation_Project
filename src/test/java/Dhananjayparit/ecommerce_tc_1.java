@@ -31,7 +31,7 @@ public class ecommerce_tc_1 extends BaseTest {
 		formPage.selectCountry("Argentina");
 		formPage.submitForm();
 		String toastMessage = driver.findElement(By.xpath("(//android.widget.Toast)[1]")).getAttribute("name");
-		Assert.assertEquals(toastMessage, "Please your name");
+		Assert.assertEquals(toastMessage, "Please enter your name");
 		
 				
 		
