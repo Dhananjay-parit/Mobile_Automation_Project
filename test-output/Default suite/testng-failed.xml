@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dhananjayparit.Ecommerce_tc_4_hybrid">
+      <class name="Dhananjayparit.ecommerce_tc_1">
         <methods>
-          <include name="chromeNavigation"/>
+          <include name="PreSetup"/>
           <include name="tearDown"/>
+          <include name="fillFormErrorValidation"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- Dhananjayparit.Ecommerce_tc_4_hybrid -->
+      </class> <!-- Dhananjayparit.ecommerce_tc_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

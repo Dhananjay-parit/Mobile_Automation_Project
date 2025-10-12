@@ -42,8 +42,8 @@ public class BaseTest extends AppiumUtils{
 				service.start();
 				UiAutomator2Options options = new UiAutomator2Options();
 				options.setDeviceName(prop.getProperty("AndroidDeviceName"));
-				options.setChromedriverExecutable("G:\\My Resume\\chromedriver.exe");
-				options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\org\\practiceapp\\resources\\General-Store.apk");
+				//options.setChromedriverExecutable("G:\\My Resume\\chromedriver.exe");
+				options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\org\\practiceapp\\resources\\General-Store_Updated.apk");
 				driver = new AndroidDriver(service.getUrl(), options);
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				formPage = new FormPage(driver);

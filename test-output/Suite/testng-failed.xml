@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="org.practiceapp.testUtils.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Error Validation test(failed)">
+  <test thread-count="5" name="End to end test(failed)">
     <classes>
-      <class name="Dhananjayparit.ecommerce_tc_1">
+      <class name="Dhananjayparit.Ecommerce_tc_4_hybrid">
         <methods>
+          <include name="chromeNavigation"/>
           <include name="tearDown"/>
-          <include name="fillFormErrorValidation"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- Dhananjayparit.ecommerce_tc_1 -->
+      </class> <!-- Dhananjayparit.Ecommerce_tc_4_hybrid -->
     </classes>
-  </test> <!-- Error Validation test(failed) -->
+  </test> <!-- End to end test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

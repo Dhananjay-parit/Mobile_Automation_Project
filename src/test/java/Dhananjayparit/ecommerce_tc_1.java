@@ -17,7 +17,7 @@ public class ecommerce_tc_1 extends BaseTest {
 	public void PreSetup() 
 	{
 		
-		((JavascriptExecutor)driver).executeScript("mobile: startActivity", ImmutableMap.of("intent","com.androidsample.generalstore/com.androidsample.generalstore.MainActivity"));
+		((JavascriptExecutor)driver).executeScript("mobile: startActivity", ImmutableMap.of("intent","com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity"));
 		
 	}
 	
